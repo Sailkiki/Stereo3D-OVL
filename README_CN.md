@@ -23,7 +23,6 @@
 
   - 张正友双目相机标定：棋盘格角点自动检测、单目标定、双目标定、立体校正映射表生成
   - TensorRT 实时推理：基于 ONNX Runtime + TensorRT FP16，320×736 下纯推理 19ms，全管线 18-25 FPS
-  - KITTI 数据集定量评估：zero-shot δ<1.25 达 97.2%，RMSE 2.98m，优于 PSMNet（93%）和 LEAStereo（95%）
   - 语言驱动 3D 目标定位：Grounding DINO + FFS 深度 + LK 光流追踪，支持任意文本描述检索目标并输出米制距离
   - 支持双目相机、视频文件、图像序列和 KITTI 数据集四种输入模式
 
