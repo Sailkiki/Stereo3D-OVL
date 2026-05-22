@@ -23,7 +23,6 @@
 
   - Zhang's stereo calibration: chessboard corner detection, monocular/stereo calibration, rectification map generation
   - TensorRT real-time inference: ONNX Runtime + TensorRT FP16, 19ms inference at 320×736, 18-25 FPS end-to-end
-  - KITTI quantitative evaluation: zero-shot δ<1.25 = 97.2%, RMSE 2.98m, outperforming PSMNet (93%) and LEAStereo (95%)
   - Language-driven 3D localization: Grounding DINO + FFS depth + LK optical flow tracking
   - Supports stereo camera, video file, image sequence, and KITTI dataset input modes
 
